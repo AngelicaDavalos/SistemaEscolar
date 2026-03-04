@@ -28,13 +28,15 @@ public class Alumno {
         return (calif1 + calif2 + calif3) / 3;
     }
 
-    
+
     public void mostrarAlumno(){
         System.out.println("El alumno es: " +this.nombre);
         System.out.println("La matricula es: " +this.matricula);
         System.out.println("El promedio es: " +calcularPromedio());
     }
 
+
+    
     public String getMatricula(){
         return this.matricula;
     }
