@@ -40,7 +40,33 @@ public class Escuela {
         if (alumno5 != null) alumno5.mostrarAlumno();
     }
 
+    // Buscar alumno por matrícula //es una variable dela clase alumno 
     
+    public void buscarAlumno(int matricula) {
+
+        if (alumno1 != null && alumno1.getMatricula() == matricula) {
+            alumno1.mostrarAlumno();
+            return;
+        }
+        if (alumno2 != null && alumno2.getMatricula() == matricula) {
+            alumno2.mostrarAlumno();
+            return;
+        }
+        if (alumno3 != null && alumno3.getMatricula() == matricula) {
+            alumno3.mostrarAlumno();
+            return;
+        }
+        if (alumno4 != null && alumno4.getMaticula() == matricula) {
+            alumno4.mostrarAlumno();
+            return;
+        }
+        if (alumno5 != null && alumno5.getMatricula() == matricula) {
+            alumno5.mostrarAlumno();
+            return;
+        }
+
+        System.out.println("Alumno no encontrado.");
+    }
 }
 
     
