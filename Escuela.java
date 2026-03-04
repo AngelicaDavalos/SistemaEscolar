@@ -30,6 +30,16 @@ public class Escuela {
         System.out.println("Alumno agregado correctamente.");
     }
 
+    // Mostrar alumnos
+    public void mostrarAlumnos() {
+
+        if (alumno1 != null) alumno1.mostrarAlumno();
+        if (alumno2 != null) alumno2.mostrarAlumno();
+        if (alumno3 != null) alumno3.mostrarAlumno();
+        if (alumno4 != null) alumno4.mostrarAlumno();
+        if (alumno5 != null) alumno5.mostrarAlumno();
+    }
+
     
 }
 
