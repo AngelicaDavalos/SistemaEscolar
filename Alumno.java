@@ -15,8 +15,6 @@ public class Alumno {
  
 
 
-
-
     public void setCalificaciones(double calif1, double calif2, double calif3){
         this.calif1 = calif1;
         this.calif2 = calif2;
@@ -36,7 +34,6 @@ public class Alumno {
     }
 
 
-    
     public String getMatricula(){
         return this.matricula;
     }
